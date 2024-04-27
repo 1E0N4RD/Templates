@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "A very basic flake for developing with the zig 0.12 toolchain";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -17,7 +17,7 @@
       ];
 
       shellHook = ''
-        fish
+        exec fish
       '';
     };
   };
