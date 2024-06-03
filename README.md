@@ -1,2 +1,2 @@
-# templates
-A collectition of software development templates
+# Templates
+A small collection of software development templates
